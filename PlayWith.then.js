@@ -9,6 +9,7 @@ new Promise((resolve,reject)=>{
     return new Promise((resolve,reject)=>{
         resolve(9);
     })
+    
     //The same effect with above line.
 })
 .then((value)=>{
